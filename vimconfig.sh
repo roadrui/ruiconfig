@@ -32,4 +32,3 @@ cd ~/.vim/bundle/dict
 echo "install dict...";
 wget https://raw.githubusercontent.com/roadrui/ruiconfig/master/php_funclist.dict
 
-
