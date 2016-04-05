@@ -14,3 +14,4 @@ tar zvxf php-5.6.20.tar.gz
 cd php-5.6.20
 ./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-mcrypt --enable-mbstring --enable-pdo --with-curl --enable-debug --enable-inline-optimization --with-bz2  --with-zlib --enable-sockets --enable-sysvsem --enable-sysvshm --enable-pcntl --enable-mbregex --with-mhash --enable-zip --with-pcre-regex --with-mysql --with-mysqli --with-gd --with-jpeg-dir --with-iconv=/usr/local/libiconv
 make all install
+cp php.ini-production /usr/local/php/etc 
